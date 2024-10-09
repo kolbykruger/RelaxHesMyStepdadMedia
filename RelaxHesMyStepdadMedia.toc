@@ -1,0 +1,14 @@
+## Interface: 169420
+
+## Title: |cffe35ab7RelaxHesMyStepdadMedia|r
+## Notes: Textures and sounds for Relax Hes My Stepdad.
+## Version: 1.0
+## Author: Kolby
+## URL:
+## DefaultState: Enable
+
+Libs\LibStub.lua
+Libs\CallbackHandler-1.0.lua
+Libs\LibSharedMedia-3.0.lua
+
+RelaxHesMyStepdadMedia.lua\

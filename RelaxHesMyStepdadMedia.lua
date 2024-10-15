@@ -22,10 +22,13 @@ LSM:Register("sound", "|cFFe35ab7Gromnack - Get Me Out|r", [[Interface\Addons\Re
 LSM:Register("sound", "|cFFe35ab7Gromnack - Im Done|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\imdone.mp3]])
 LSM:Register("sound", "|cFFe35ab7Gromnack - Huh|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\huh.mp3]])
 LSM:Register("sound", "|cFFe35ab7Interrupt|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\interrupt.mp3]])
+LSM:Register("sound", "|cFFe35ab7Merica Pull Timer|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\pullamerica15.mp3]])
 LSM:Register("sound", "|cFFe35ab7Nut|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\nut.mp3]])
 LSM:Register("sound", "|cFFe35ab7Pedro|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\pedrolust.mp3]])
-LSM:Register("sound", "|cFFe35ab7Merica Pull Timer|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\pullamerica15.mp3]])
+LSM:Register("sound", "|cFFe35ab7Running|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\running.mp3]])
+LSM:Register("sound", "|cFFe35ab7Sneak|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\sneak.ogg]])
 LSM:Register("sound", "|cFFe35ab7Tim Allen|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\timallen.mp3]])
+LSM:Register("sound", "|cFFe35ab7Tokyo Drift|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\tokyodrift.ogg]])
 LSM:Register("sound", "|cFFe35ab7Yeyeah|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\yeyeah.mp3]])
 
 --Fonts

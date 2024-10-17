@@ -1,4 +1,4 @@
-## Install
+# Install
 
 1. [Download the package.](https://github.com/kolbykruger/RelaxHesMyStepdadMedia/archive/refs/heads/main.zip)
 2. Open the archive, then open the `RelaxHesMyStepdadMedia-main` folder.

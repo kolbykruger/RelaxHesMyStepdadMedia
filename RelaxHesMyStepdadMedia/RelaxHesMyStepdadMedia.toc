@@ -1,7 +1,7 @@
 ## Interface: {{API LatestInterface}}
 
 ## Title: |cffe35ab7RelaxHesMyStepdadMedia|r
-## Notes: Textures and sounds for Relax Hes My Stepdad.
+## Notes: Textures and sounds for the guild Relax Hes My Stepdad.
 ## Version: pr-2
 ## Author: RelaxHesMyStepdad
 ## URL: https://github.com/kolbykruger/RelaxHesMyStepdadMedia

@@ -1,11 +1,12 @@
-## Interface: {{API LatestInterface}}
-
+## Interface: 110000
 ## Title: |cffe35ab7RelaxHesMyStepdadMedia|r
 ## Notes: Textures and sounds for the guild Relax Hes My Stepdad.
-## Version: pr-2
+## Version: @project-version@
 ## Author: RelaxHesMyStepdad
 ## URL: https://github.com/kolbykruger/RelaxHesMyStepdadMedia
 ## DefaultState: Enable
+## X-OpenSource-Releases: https://github.com/kolbykruger/RelaxHesMyStepdadMedia/releases
+## X-Curse-Project-ID: 1123307
 
 Libs\LibStub.lua
 Libs\CallbackHandler-1.0.lua

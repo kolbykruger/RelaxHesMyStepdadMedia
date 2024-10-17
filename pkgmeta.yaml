@@ -1,0 +1,6 @@
+package-as: RelaxHesMyStepdadMedia
+
+move-folders:
+  RelaxHesMyStepdadMedia/RelaxHesMyStepdadMedia: RelaxHesMyStepdadMedia
+
+enable-nolib-creation: no

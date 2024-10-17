@@ -1,21 +1,43 @@
-name: Create Archive
-on: [push]
+name: Build
+
+on:
+  push:
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Archive Release
-      uses: thedoctor0/zip-release@0.7.5
-      with:
-        type: 'zip'
-        filename: 'RelaxHesMyStepdadMedia.zip'
-        exclusions: '*.git* /*node_modules/* .editorconfig'
 
-    - name: Upload Release
+    - uses: actions/checkout@v3
+
+    - name: Get Version
+      shell: bash
+      id: get-version
+      run: echo "::set-output name=version::$(node ./.github/workflows/get-verison.js)"
+
+
+    #- name: Archive Release
+    #  uses: thedoctor0/zip-release@0.7.5
+    #  with:
+    #    type: 'zip'
+    #    filename: 'RelaxHesMyStepdadMedia'+${{ steps.get-version.outputs.version}}+'.zip'
+    #    exclusions: '*.git* /*node_modules/* .editorconfig'
+
+    - name: Create Zip
+      id: create-zip
+      working-directory: ./
+      run: zip -r ./RelaxHesMyStepdad-${{ steps.get-version.outputs.version }}.zip ./*
+
+    - name: Create Release
+      id: create-release
       uses: ncipollo/release-action@v1.12.0
       with:
-        artifacts: "RelaxHesMyStepdadMedia.zip"
+        allowUpdates: true
+        name: Release ${{ steps.get-version.outputs.version }}
+        draft: false
+        prerelease: false
+        token: ${{secrets.GITHUB_TOKEN}}
+        artifacts: "RelaxHesMyStepdadMedia-${{ steps.get-version.outputs.version}}.zip"
         commit: "main"
-            
-  
+        tag: ${{ steps.get-version.outputs.version }}

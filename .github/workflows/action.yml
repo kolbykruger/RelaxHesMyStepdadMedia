@@ -17,6 +17,5 @@ jobs:
       with:
         artifacts: "RelaxHesMyStepdadMedia.zip"
         commit: "main"
-        tag: "release"
             
   

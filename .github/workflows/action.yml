@@ -12,10 +12,10 @@ jobs:
 
     - uses: actions/checkout@v3
 
-    - name: Get Version
-      shell: bash
-      id: get-version
-      run: echo "::set-output name=version::$(node ./.github/workflows/get-verison.js)"
+    #- name: Get Version
+    #  shell: bash
+    #  id: get-version
+    #  run: echo "::set-output name=version::$(node ./.github/workflows/get-verison.js)"
 
 
     #- name: Archive Release
@@ -28,7 +28,7 @@ jobs:
     - name: Create Zip
       id: create-zip
       working-directory: ./
-      run: zip -r ./RelaxHesMyStepdad-${{ steps.get-version.outputs.version }}.zip ./*
+      run: zip -r ./RelaxHesMyStepdad-${{ github.ref_name }}.zip ./*
 
     - name: Create Release
       id: create-release
@@ -39,6 +39,6 @@ jobs:
         draft: false
         prerelease: false
         token: ${{secrets.GITHUB_TOKEN}}
-        artifacts: "RelaxHesMyStepdadMedia-${{ steps.get-version.outputs.version}}.zip"
+        artifacts: "RelaxHesMyStepdadMedia-${{ github.ref_name }}.zip"
         commit: "main"
-        tag: "${{ steps.get-version.outputs.version }}"
+        tag: "${{ github.ref_name }}"

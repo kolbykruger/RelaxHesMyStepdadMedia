@@ -40,4 +40,4 @@ jobs:
         token: ${{secrets.GITHUB_TOKEN}}
         artifacts: "RelaxHesMyStepdadMedia-${{ steps.get-version.outputs.version}}.zip"
         commit: "main"
-        tag: ${{ steps.get-version.outputs.version }}
+        tag: "${{ steps.get-version.outputs.version }}"

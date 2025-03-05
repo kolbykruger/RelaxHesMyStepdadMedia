@@ -1,4 +1,4 @@
-## Interface: 110005
+## Interface: 110100
 ## Title: |cffe35ab7RelaxHesMyStepdadMedia|r
 ## Notes: Textures and sounds for the guild Relax Hes My Stepdad.
 ## Version: @project-version@

@@ -6,7 +6,7 @@ LSM:Register("statusbar","Stepdad Textured", [[Interface\Addons\RelaxHesMyStepda
 LSM:Register("statusbar","Stepdad Striped", [[Interface\Addons\RelaxHesMyStepdadMedia\StatusBars\Striped.tga]])
 
 --Sounds
-LSM:Register("sound", "|cFFe35ab7|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\.mp3]])
+LSM:Register("sound", "|cFFe35ab7Ahh|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\ahh.mp3]])
 LSM:Register("sound", "|cFFe35ab7Alarm|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\alarm.mp3]])
 LSM:Register("sound", "|cFFe35ab7Alert|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\alert.mp3]])
 LSM:Register("sound", "|cFFe35ab7Alert 2|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\alert2.mp3]])
@@ -29,8 +29,12 @@ LSM:Register("sound", "|cFFe35ab7Merica Pull Timer|r", [[Interface\Addons\RelaxH
 LSM:Register("sound", "|cFFe35ab7Mario|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\mario.mp3]])
 LSM:Register("sound", "|cFFe35ab7Mii|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\mii.mp3]])
 LSM:Register("sound", "|cFFe35ab7Mouse|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\mouse.mp3]])
+LSM:Register("sound", "|cFFe35ab7NFL|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\nfl.mp3]])
+LSM:Register("sound", "|cFFe35ab7Nom Nom Nom|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\nom-nom-nom.mp3]])
 LSM:Register("sound", "|cFFe35ab7Nut|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\nut.mp3]])
 LSM:Register("sound", "|cFFe35ab7Pedro|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\pedrolust.mp3]])
+LSM:Register("sound", "|cFFe35ab7Pop|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\pop.mp3]])
+LSM:Register("sound", "|cFFe35ab7Quack|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\quack.mp3]])
 LSM:Register("sound", "|cFFe35ab7Running|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\running_quiet.mp3]])
 LSM:Register("sound", "|cFFe35ab7Sexy Sax|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\sexysax.mp3]])
 LSM:Register("sound", "|cFFe35ab7Sneak|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\sneak.ogg]])

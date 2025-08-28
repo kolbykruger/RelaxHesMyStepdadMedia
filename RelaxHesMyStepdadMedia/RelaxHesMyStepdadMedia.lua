@@ -37,6 +37,7 @@ LSM:Register("sound", "|cFFe35ab7Pop|r", [[Interface\Addons\RelaxHesMyStepdadMed
 LSM:Register("sound", "|cFFe35ab7Quack|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\quack.mp3]])
 LSM:Register("sound", "|cFFe35ab7Running|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\running_quiet.mp3]])
 LSM:Register("sound", "|cFFe35ab7Sexy Sax|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\sexysax.mp3]])
+LSM:Register("sound", "|cFFe35ab7Slurp Slurp|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\slurp-slurp.mp3]])
 LSM:Register("sound", "|cFFe35ab7Sneak|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\sneak.ogg]])
 LSM:Register("sound", "|cFFe35ab7Sonic|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\sonic.mp3]])
 LSM:Register("sound", "|cFFe35ab7Surprise|r", [[Interface\Addons\RelaxHesMyStepdadMedia\Sounds\surprise.mp3]])
